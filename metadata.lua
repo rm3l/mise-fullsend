@@ -4,29 +4,20 @@
 
 PLUGIN = { -- luacheck: ignore
     -- Required: Plugin metadata name
-    name = "<TOOL>",
+    name = "fullsend",
 
     -- Required: Plugin metadata version
     version = "1.0.0",
 
     -- Optional: Plugin description
-    description = "A mise tool plugin for <TOOL>",
+    description = "A mise tool plugin for Fullsend CLI",
 
     -- Optional: Plugin author
-    author = "<GITHUB_USER>",
+    author = "rm3l",
 
     -- Optional: License name
     license = "MIT",
 
     -- Optional: Plugin homepage
-    homepage = "https://github.com/<GITHUB_USER>/mise-<TOOL>",
-
-    -- Optional: Legacy version files this plugin can parse
-    -- legacyFilenames = {
-    --     ".<TOOL>-version",
-    --     ".<TOOL>rc"
-    -- },
-
-    -- Optional: configured mise tools to add to install-hook PATH
-    -- depends = { "node" },
+    homepage = "https://github.com/rm3l/mise-fullsend",
 }
